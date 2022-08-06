@@ -14,14 +14,14 @@ Since having local copies of papers, you can better organize your papers.
 ## For Your Information
 **It takes me about 20 minues to download all these files.**
 
-Most of the papers comes from Arxiv (~100 papers), OpenAcess/Review (~20 papers), you can download with the help of the python script [download_papers.py](bulk_download_papers/download_papers.py)
+Most of the papers comes from Arxiv (~100 papers), OpenAcess/Review (~20 papers), you can download with the help of the python script [download_papers.py](download_papers.py)
 - it requires `paper_links.txt`
 - it needs `arxiv` and `wget` libiraries.
   - please do `pip install arxiv wget` if you dont have them installed.
 
 `download_papers.py` generates `download_arxiv_outputs.csv` which is intended to provide more information according to the download process
 - it stores `url, title, time_consumed (in seconds)`
-- here is a preview image, ![preview_image](bulk_download_papers/download_arxiv_output.png)
+- here is a preview image, ![preview_image](download_arxiv_output.png)
 
 ### Unselect Paper
 Simply open `paper_link.txt` and either delete or comment out (with `#`) links.
