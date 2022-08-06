@@ -4,6 +4,9 @@ A curated list of neural network pruning and related resources. Inspired by [awe
 
 Please feel free to [pull requests](https://github.com/he-y/awesome-Pruning/pulls) or [open an issue](https://github.com/he-y/awesome-Pruning/issues) to add papers.
 
+## Bulky download papers
+Refer [folder: bulk_download_papers](bulk_download_papers)
+
 ## Table of Contents
 
 - [Type of Pruning](#type-of-pruning)
