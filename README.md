@@ -6,27 +6,20 @@ Please feel free to [pull requests](https://github.com/he-y/awesome-Pruning/pull
 
 ## Table of Contents
 
-- [Type of Pruning](#type-of-pruning)
-
-- [A Survey on Filter Pruning](#a-survey-on-filter-pruning)
-
-- [2023 Venues](#2023)
-
-- [2022 Venues](#2022)
-
-- [2021 Venues](#2021)
-
-- [2020 Venues](#2020)
-
-- [2019 Venues](#2019)
-
-- [2018 Venues](#2018)
-
-- [2017 Venues](#2017)
-
-- [2016 Venues](#2016)
-
-- [2015 Venues](#2015)
+- [Awesome Pruning ](#awesome-pruning-)
+  - [Table of Contents](#table-of-contents)
+    - [Type of Pruning](#type-of-pruning)
+    - [A Survey of Structured Pruning (arXiv version and IEEE T-PAMI version)](#a-survey-of-structured-pruning-arxiv-version-and-ieee-t-pami-version)
+    - [2023](#2023)
+    - [2022](#2022)
+    - [2021](#2021)
+    - [2020](#2020)
+    - [2019](#2019)
+    - [2018](#2018)
+    - [2017](#2017)
+    - [2016](#2016)
+    - [2015](#2015)
+  - [Related Repo](#related-repo)
 
 ### Type of Pruning
 
@@ -34,9 +27,22 @@ Please feel free to [pull requests](https://github.com/he-y/awesome-Pruning/pull
 |:----------- |:--------------:|:--------------:|:----------------:|:-----------:|
 | Explanation | Filter pruning | Weight pruning | Special Networks | other types |
 
-### A Survey on Filter Pruning
+### A Survey of Structured Pruning ([arXiv version](https://arxiv.org/abs/2303.00566) and [IEEE T-PAMI version](https://ieeexplore.ieee.org/document/10330640))
 
-A survey of structured pruning can be found at this link: [arxiv](https://arxiv.org/abs/2303.00566). The related papers are categorized as below:
+Please cite our paper if it's helpful:
+```
+@article{he2023structured,
+  author={He, Yang and Xiao, Lingao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Structured Pruning for Deep Convolutional Neural Networks: A Survey}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-20},
+  doi={10.1109/TPAMI.2023.3334614}}
+```
+
+The related papers are categorized as below:
 ![Structured Pruning Taxonomy](./Structured_Taxonomy.png)
 
 ### 2023
